@@ -1,6 +1,9 @@
 /* ---------------------------------------------------
 LAYOUT
 ----------------------------------------------------*/
+.extra-bg-color {
+  background-color: #CECFF0;
+}
 .headline {
   padding-right: 2rem;
 }
@@ -36,7 +39,7 @@ UNDERLINE
   /*  shadows render better in certain browsers than text, first rule is for older browser support  */
   color: #333333;
   color: transparent;
-  text-shadow: 0 0 #333333, .06em 0 0 #FFFCEB, 0 0, -.06em 0 0 #FFFCEB;
+  text-shadow: 0 0 #333333, .06em 0 0 #CECFF0, 0 0, -.06em 0 0 #CECFF0;
   /*  gradient background allows us to use css only & re-position it  */
   background: -webkit-linear-gradient(#333333, #333333) center 1.06em no-repeat;
   background: linear-gradient(#333333, #333333) center 1.06em no-repeat;
@@ -50,7 +53,7 @@ UNDERLINE
   /*  shadows render better in certain browsers than text, first rule is for older browser support  */
   color: #333333;
   color: transparent;
-  text-shadow: 0 0 #333333, .05em 0 0 #FFFCEB, 0 0, -.05em 0 0 #FFFCEB;
+  text-shadow: 0 0 #333333, .05em 0 0 #CECFF0, 0 0, -.05em 0 0 #CECFF0;
   /*  gradient background allows us to use css only & re-position it  */
   background: -webkit-linear-gradient(#333333, #333333) center 1.05em no-repeat;
   background: linear-gradient(#333333, #333333) center 1.05em no-repeat;
@@ -65,7 +68,7 @@ UNDERLINE
     /*  shadows render better in certain browsers than text, first rule is for older browser support  */
     color: #333333;
     color: transparent;
-    text-shadow: 0 0 #333333, .05em 0 0 #FFFCEB, 0 0, -.05em 0 0 #FFFCEB;
+    text-shadow: 0 0 #333333, .05em 0 0 #CECFF0, 0 0, -.05em 0 0 #CECFF0;
     /*  gradient background allows us to use css only & re-position it  */
     background: -webkit-linear-gradient(#333333, #333333) center 1.05em no-repeat;
     background: linear-gradient(#333333, #333333) center 1.05em no-repeat;
@@ -79,7 +82,7 @@ UNDERLINE
     /*  shadows render better in certain browsers than text, first rule is for older browser support  */
     color: #333333;
     color: transparent;
-    text-shadow: 0 0 #333333, .07em 0 0 #FFFCEB, 0 0, -.07em 0 0 #FFFCEB;
+    text-shadow: 0 0 #333333, .07em 0 0 #CECFF0, 0 0, -.07em 0 0 #CECFF0;
     /*  gradient background allows us to use css only & re-position it  */
     background: -webkit-linear-gradient(#333333, #333333) center 1.07em no-repeat;
     background: linear-gradient(#333333, #333333) center 1.07em no-repeat;
