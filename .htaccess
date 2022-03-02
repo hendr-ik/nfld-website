@@ -1,0 +1,2 @@
+Redirect 301 /ueber-hendrik-niefeld/ https://niefeld.com/about.html
+ErrorDocument 404 /index.html
