@@ -12,20 +12,9 @@ LAYOUT
 span {
   display: table;
 }
-/* Custom media query - medium small - neutralize span line braks */
-
-/*
-@media only screen and (max-width: 40em) {
-  h1 span,
-  p span {
-    display: initial;
-  }
-}
-*/
 .credits {
   font-size: 0.6rem
 }
-
 .image-scale {
   width:200px;
   height: auto;
@@ -61,10 +50,40 @@ UNDERLINE
   /*  shadows render better in certain browsers than text, first rule is for older browser support  */
   color: #333333;
   color: transparent;
-  text-shadow: 0 0 #333333, .06em 0 0 #FFFCEB, 0 0, -.06em 0 0 #FFFCEB;
+  text-shadow: 0 0 #333333, .05em 0 0 #FFFCEB, 0 0, -.05em 0 0 #FFFCEB;
   /*  gradient background allows us to use css only & re-position it  */
-  background: -webkit-linear-gradient(#333333, #333333) center 1.06em no-repeat;
-  background: linear-gradient(#333333, #333333) center 1.06em no-repeat;
+  background: -webkit-linear-gradient(#333333, #333333) center 1.05em no-repeat;
+  background: linear-gradient(#333333, #333333) center 1.05em no-repeat;
   /*  can precisely control size in relation to the text  */
   background-size: 98% 0.1rem;
+}
+@media only screen and (max-width: 30em) {
+  .underline-a {
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    /*  shadows render better in certain browsers than text, first rule is for older browser support  */
+    color: #333333;
+    color: transparent;
+    text-shadow: 0 0 #333333, .05em 0 0 #FFFCEB, 0 0, -.05em 0 0 #FFFCEB;
+    /*  gradient background allows us to use css only & re-position it  */
+    background: -webkit-linear-gradient(#333333, #333333) center 1.05em no-repeat;
+    background: linear-gradient(#333333, #333333) center 1.05em no-repeat;
+    /*  can precisely control size in relation to the text  */
+    background-size: 98% 0.1rem;
+  }
+  .underline-b {
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    /*  shadows render better in certain browsers than text, first rule is for older browser support  */
+    color: #333333;
+    color: transparent;
+    text-shadow: 0 0 #333333, .07em 0 0 #FFFCEB, 0 0, -.07em 0 0 #FFFCEB;
+    /*  gradient background allows us to use css only & re-position it  */
+    background: -webkit-linear-gradient(#333333, #333333) center 1.07em no-repeat;
+    background: linear-gradient(#333333, #333333) center 1.07em no-repeat;
+    /*  can precisely control size in relation to the text  */
+    background-size: 98% 0.05rem;
+  }
 }
